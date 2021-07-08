@@ -11,7 +11,7 @@ namespace Unit_Test
         {
             //Max Number at 1st Position
             float firstValue = 20.0f, secondValue = 18.5f, thirdValue = 11.0f;
-            float expected = 16.6f;
+            float expected = 20.0f;
             FindMaximum find = new FindMaximum();
             float actual = find.MaximumValue(firstValue, secondValue, thirdValue);
             Assert.AreEqual(expected, actual);
@@ -21,7 +21,7 @@ namespace Unit_Test
         {
             //Max Number at 2nd Position
             float firstValue = 21.5f, secondValue = 15.5f, thirdValue = 11.5f;
-            float expected = 16.5f;
+            float expected = 21.5f;
             FindMaximum find = new FindMaximum();
             float actual = find.MaximumValue(firstValue, secondValue, thirdValue);
             Assert.AreEqual(expected, actual);
@@ -30,8 +30,8 @@ namespace Unit_Test
         public void TestMethod3()
         {
             //Max Number at 3rd Position
-            float firstValue = 30.5f, secondValue = 20.5f, thirdValue = 30.5f;
-            float expected = 26.5f;
+            float firstValue = 31.5f, secondValue = 20.5f, thirdValue = 30.5f;
+            float expected = 31.5f;
             FindMaximum find = new FindMaximum();
             float actual = find.MaximumValue(firstValue, secondValue, thirdValue);
             Assert.AreEqual(expected, actual);
