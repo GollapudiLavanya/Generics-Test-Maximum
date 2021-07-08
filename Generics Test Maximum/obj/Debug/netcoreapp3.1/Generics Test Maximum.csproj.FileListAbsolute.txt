@@ -1,0 +1,13 @@
+C:\Users\dell\source\repos\Generics Test Maximum\Generics Test Maximum\bin\Debug\netcoreapp3.1\Generics Test Maximum.exe
+C:\Users\dell\source\repos\Generics Test Maximum\Generics Test Maximum\bin\Debug\netcoreapp3.1\Generics Test Maximum.deps.json
+C:\Users\dell\source\repos\Generics Test Maximum\Generics Test Maximum\bin\Debug\netcoreapp3.1\Generics Test Maximum.runtimeconfig.json
+C:\Users\dell\source\repos\Generics Test Maximum\Generics Test Maximum\bin\Debug\netcoreapp3.1\Generics Test Maximum.runtimeconfig.dev.json
+C:\Users\dell\source\repos\Generics Test Maximum\Generics Test Maximum\bin\Debug\netcoreapp3.1\Generics Test Maximum.dll
+C:\Users\dell\source\repos\Generics Test Maximum\Generics Test Maximum\bin\Debug\netcoreapp3.1\Generics Test Maximum.pdb
+C:\Users\dell\source\repos\Generics Test Maximum\Generics Test Maximum\obj\Debug\netcoreapp3.1\Generics Test Maximum.csproj.AssemblyReference.cache
+C:\Users\dell\source\repos\Generics Test Maximum\Generics Test Maximum\obj\Debug\netcoreapp3.1\Generics Test Maximum.AssemblyInfoInputs.cache
+C:\Users\dell\source\repos\Generics Test Maximum\Generics Test Maximum\obj\Debug\netcoreapp3.1\Generics Test Maximum.AssemblyInfo.cs
+C:\Users\dell\source\repos\Generics Test Maximum\Generics Test Maximum\obj\Debug\netcoreapp3.1\Generics Test Maximum.csproj.CoreCompileInputs.cache
+C:\Users\dell\source\repos\Generics Test Maximum\Generics Test Maximum\obj\Debug\netcoreapp3.1\Generics Test Maximum.dll
+C:\Users\dell\source\repos\Generics Test Maximum\Generics Test Maximum\obj\Debug\netcoreapp3.1\Generics Test Maximum.pdb
+C:\Users\dell\source\repos\Generics Test Maximum\Generics Test Maximum\obj\Debug\netcoreapp3.1\Generics Test Maximum.genruntimeconfig.cache
