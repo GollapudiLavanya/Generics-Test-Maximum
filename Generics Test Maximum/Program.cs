@@ -8,7 +8,7 @@ namespace Generics_Test_Maximum
         {
             Console.WriteLine("Generics Test Maximum");
             FindMaximum find = new FindMaximum();
-            int max = find.MaximumValue(20, 35, 55);
+            float max = find.MaximumValue(21.5f, 11.5f, 18.5f);
             Console.WriteLine("Maximum Integer Number : " + max);
         }
     }

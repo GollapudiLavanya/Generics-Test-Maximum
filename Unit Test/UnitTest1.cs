@@ -10,30 +10,30 @@ namespace Unit_Test
         public void TestMethod1()
         {
             //Max Number at 1st Position
-            int firstValue = 30, secondValue = 20, thirdValue = 10;
-            int expected = 30;
+            float firstValue = 20.0f, secondValue = 18.5f, thirdValue = 11.0f;
+            float expected = 16.6f;
             FindMaximum find = new FindMaximum();
-            int actual = find.MaximumValue(firstValue, secondValue, thirdValue);
+            float actual = find.MaximumValue(firstValue, secondValue, thirdValue);
             Assert.AreEqual(expected, actual);
         }
         [TestMethod]
         public void TestMethod2()
         {
             //Max Number at 2nd Position
-            int firstValue = 20, secondValue = 30, thirdValue = 10;
-            int expected = 30;
+            float firstValue = 21.5f, secondValue = 15.5f, thirdValue = 11.5f;
+            float expected = 16.5f;
             FindMaximum find = new FindMaximum();
-            int actual = find.MaximumValue(firstValue, secondValue, thirdValue);
+            float actual = find.MaximumValue(firstValue, secondValue, thirdValue);
             Assert.AreEqual(expected, actual);
         }
         [TestMethod]
         public void TestMethod3()
         {
             //Max Number at 3rd Position
-            int firstValue = 20, secondValue = 10, thirdValue = 30;
-            int expected = 30;
+            float firstValue = 30.5f, secondValue = 20.5f, thirdValue = 30.5f;
+            float expected = 26.5f;
             FindMaximum find = new FindMaximum();
-            int actual = find.MaximumValue(firstValue, secondValue, thirdValue);
+            float actual = find.MaximumValue(firstValue, secondValue, thirdValue);
             Assert.AreEqual(expected, actual);
         }
 
