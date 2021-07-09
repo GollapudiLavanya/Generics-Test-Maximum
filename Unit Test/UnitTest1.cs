@@ -10,31 +10,31 @@ namespace MaxUsingGenericsTest
         [TestMethod]
         public void TestMethod1()
         {
-            //Max String at 1st Position
-            string firstValue = "Peach", secondValue = "Banana", thirdValue = "Apple";
-            string expected = "Peach";
-            FindMaximum find = new FindMaximum();
-            string actual = find.MaximumValue(firstValue, secondValue, thirdValue);
+            //Max Integer at 1st Position
+            int[] intArray = { 30, 20, 10 };
+            int expected = 30;
+            FindMaximum<int> find = new FindMaximum<int>(intArray);
+            int actual = find.FindMaxValue();
             Assert.AreEqual(expected, actual);
         }
         [TestMethod]
         public void TestMethod2()
         {
-            //Max String at 2nd Position
-            string firstValue = "Banana", secondValue = "Peach", thirdValue = "Apple";
-            string expected = "Peach";
-            FindMaximum find = new FindMaximum();
-            string actual = find.MaximumValue(firstValue, secondValue, thirdValue);
+            //Max float at 2nd Position
+            float[] floatArray = { 10.5f, 30.5f, 20.5f };
+            float expected = 30.5f;
+            FindMaximum<float> find = new FindMaximum<float>(floatArray);
+            float actual = find.FindMaxValue();
             Assert.AreEqual(expected, actual);
         }
         [TestMethod]
         public void TestMethod3()
         {
             //Max String at 3rd Position
-            string firstValue = "Apple", secondValue = "Banana", thirdValue = "Peach";
+            string[] strArray = { "Apple", "Banana", "Peach" };
             string expected = "Peach";
-            FindMaximum find = new FindMaximum();
-            string actual = find.MaximumValue(firstValue, secondValue, thirdValue);
+            FindMaximum<string> find = new FindMaximum<string>(strArray);
+            string actual = find.FindMaxValue();
             Assert.AreEqual(expected, actual);
         }
 
