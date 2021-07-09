@@ -8,17 +8,18 @@ namespace Generics_Test_Maximum
         {
             Console.WriteLine(" Generics Test Maximum \n");
 
-            int[] intArray = { 534, 733, 832, 747, 638 };
-            float[] floatArray = { 19.2f, 54.4f, 9.32f, 45.5f, 8.78f };
-            string[] stringArray = { "Apple", "Peach", "Banana", "Strawberry", "Blueberrie" };
+            int[] intArray = { 926, 233, 172, 457, 123 };
+            float[] floatArray = { 21.5f, 11.5f, 18.23f, 07.61f, 99.23f };
+            string[] stringArray = { "Apple", "Peach", "Banana", "Grapes", "Guava" };
 
             FindMaximum<int> find1 = new FindMaximum<int>(intArray);
             FindMaximum<float> find2 = new FindMaximum<float>(floatArray);
             FindMaximum<string> find3 = new FindMaximum<string>(stringArray);
 
-            Console.WriteLine("Maximum Integer Number : " + find1.FindMaxValue());
-            Console.WriteLine("Maximum Float Number : " + find2.FindMaxValue());
-            Console.WriteLine("Maximum String : " + find3.FindMaxValue());
+            find1.PrintMaxValue();
+            find2.PrintMaxValue();
+            find3.PrintMaxValue();
+
         }
     }
 }

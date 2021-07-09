@@ -11,8 +11,8 @@ namespace MaxUsingGenericsTest
         public void TestMethod1()
         {
             //Max Integer at 1st Position
-            int[] intArray = { 30, 20, 10 };
-            int expected = 30;
+            int[] intArray = { 50, 30, 10 };
+            int expected = 50;
             FindMaximum<int> find = new FindMaximum<int>(intArray);
             int actual = find.FindMaxValue();
             Assert.AreEqual(expected, actual);
@@ -21,8 +21,8 @@ namespace MaxUsingGenericsTest
         public void TestMethod2()
         {
             //Max float at 2nd Position
-            float[] floatArray = { 10.5f, 30.5f, 20.5f };
-            float expected = 30.5f;
+            float[] floatArray = { 21.5f, 11.5f, 18.5f };
+            float expected = 21.5f;
             FindMaximum<float> find = new FindMaximum<float>(floatArray);
             float actual = find.FindMaxValue();
             Assert.AreEqual(expected, actual);
